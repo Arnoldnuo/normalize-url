@@ -1,6 +1,6 @@
 'use strict';
 // TODO: Use the `URL` global when targeting Node.js 10
-const URLParser = require('url').URL;
+const URLParser = require('url')
 
 // https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs
 const DATA_URL_DEFAULT_MIME_TYPE = 'text/plain';
